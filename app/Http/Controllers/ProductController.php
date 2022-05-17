@@ -6,7 +6,7 @@ use App\Models\Product;
 use Illuminate\Http\Request;
 use App\Http\Requests\ProductRequest;
 use App\Models\ProductCategory;
-use Yajra\DataTables\Facades\DataTables;
+use Yajra\DataTables\DataTables; 
 
 class ProductController extends Controller
 {
